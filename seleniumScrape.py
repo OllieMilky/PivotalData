@@ -3,40 +3,47 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
-import sys, time, pandas, xlsxwriter
+import sys
+import time
+import pandas
+import xlsxwriter
 
-searchTerms = ['Trump', 'COVID', 'Boris', 'COVID19', 'Coronavirus']
+searchTerms = ['Pandemic', 'COVID', 'Corona', 'COVID19', 'Coronavirus']
 
 url = 'https://twitter.com/login'
 driver = webdriver.Firefox()
-base_url = lambda hashtag : "https://twitter.com/search?q=lang%3Aen%20%23{}&src=typed_query&f=live".format(hashtag)
+
+
+def base_url(
+    hashtag): return "https://twitter.com/search?q=lang%3Aen%20%23{}&src=typed_query&f=live".format(hashtag)
 
 
 def getTweetData(card, term):
 
-    #Username
+    # Username
     Username = card.find_element_by_xpath('.//span').text
     Username = Username.encode('ascii', 'ignore')
     print()
     Username = str(Username).replace("b'", "")
     Username = str(Username).replace("\\n", "")
     Username = Username[:-1]
-    #print(Username)
+    # print(Username)
 
-    #Twitter Handle
-    Handle = card.find_element_by_xpath('.//span[contains(text(), "@")]').text 
-    #print(Handle)
+    # Twitter Handle
+    Handle = card.find_element_by_xpath('.//span[contains(text(), "@")]').text
+    # print(Handle)
 
     try:
-        #Postdate
-        PostDate = card.find_element_by_xpath('.//time').get_attribute('datetime')
+        # Postdate
+        PostDate = card.find_element_by_xpath(
+            './/time').get_attribute('datetime')
         print(PostDate)
     except NoSuchElementException:
         return
 
-    #Content
+    # Content
     Comment = card.find_element_by_xpath('.//div[2]/div[2]/div[1]').text
-    Response = card.find_element_by_xpath('.//div[2]/div[2]/div[2]').text 
+    Response = card.find_element_by_xpath('.//div[2]/div[2]/div[2]').text
     Content = Comment + Response
     Content = Content.encode('ascii', 'ignore')
 
@@ -44,22 +51,26 @@ def getTweetData(card, term):
     Content = str(Content).replace("b\"", "")
     Content = str(Content).replace("\\n", "")
     Content = Content[:-1]
-    #print(Content)
+    # print(Content)
 
-    #Reply count
-    ReplyCount = card.find_element_by_xpath('.//div[@data-testid="reply"]').text
+    # Reply count
+    ReplyCount = card.find_element_by_xpath(
+        './/div[@data-testid="reply"]').text
     print(ReplyCount)
 
-    #Retweet count
-    RetweetCount = card.find_element_by_xpath('.//div[@data-testid="retweet"]').text
+    # Retweet count
+    RetweetCount = card.find_element_by_xpath(
+        './/div[@data-testid="retweet"]').text
     print(RetweetCount)
 
-    #Likes count
+    # Likes count
     LikesCount = card.find_element_by_xpath('.//div[@data-testid="like"]').text
     print(LikesCount)
 
-    tweet = (term, Username, Handle, PostDate, Content, ReplyCount, RetweetCount, LikesCount)
+    tweet = (term, Username, Handle, PostDate, Content,
+             ReplyCount, RetweetCount, LikesCount)
     return tweet
+
 
 def scrapePage(localUrl, n, term, tweetData):
     driver.get(localUrl)
@@ -80,12 +91,13 @@ def scrapePage(localUrl, n, term, tweetData):
                 if tweet_id not in tweet_ids:
                     tweet_ids.add(tweet_id)
                     tweetData.append(data)
-        
+
         scrollAttempt = 0
         while True:
-            #check scroll position
-            driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-            scrollNo +=1
+            # check scroll position
+            driver.execute_script(
+                'window.scrollTo(0, document.body.scrollHeight);')
+            scrollNo += 1
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + str(scrollNo))
             if scrollNo >= n:
                 scrolling = False
@@ -96,13 +108,14 @@ def scrapePage(localUrl, n, term, tweetData):
                 scrollAttempt += 1
                 if scrollAttempt >= 3:
                     scrolling = False
-                    break 
+                    break
                 else:
                     time.sleep(3)
             else:
                 last_pos = curr_position
                 break
     return(tweetData)
+
 
 def saveTweets(searchTerms, n):
     tweetList = []
@@ -111,14 +124,19 @@ def saveTweets(searchTerms, n):
         print('Scraping for #{}'.format(term))
         tweetList = scrapePage(base_url(term), n, term, tweetList)
     df = pandas.DataFrame(tweetList)
-    df.to_csv('Draft1.csv', encoding='utf-8', index=False, header=["Search Term", "Username", "Handle", "PostDate", "Content", "Comments", "Retweets", "Likes"])
+    #df.to_csv('Draft1.csv', encoding='utf-8', index=False, header=["Search Term", "Username", "Handle", "PostDate", "Content", "Comments", "Retweets", "Likes"])
+    with open("Draft1.csv", 'a') as f:
+        df.to_csv(f, mode='a', encoding='utf-8', index=False, header=False)
+
 
 def waiting_function(by_variable, attribute):
     try:
-        WebDriverWait(driver, 20).until(lambda x: x.find_element(by=by_variable, value = attribute))
+        WebDriverWait(driver, 20).until(
+            lambda x: x.find_element(by=by_variable, value=attribute))
     except (NoSuchElementException, TimeoutException):
         print(' {} {} not found'.format(by_variable, attribute))
         exit()
+
 
 if __name__ == '__main__':
     driver.get(url)
@@ -129,5 +147,5 @@ if __name__ == '__main__':
     email.send_keys('LaneTrance')
     password.send_keys('PivotalData', Keys.ENTER)
 
-    saveTweets(searchTerms, 1)
+    saveTweets(searchTerms, 20)
     driver.quit()
