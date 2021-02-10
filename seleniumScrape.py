@@ -1,12 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.common import exceptions
 from selenium.webdriver.common.keys import Keys
-import sys
+
 import time
 import pandas
-import xlsxwriter
 
 searchTerms = ['Pandemic', 'COVID', 'Corona', 'COVID19', 'Coronavirus']
 
@@ -19,7 +18,7 @@ def base_url(
 
 
 def getTweetData(card, term):
-
+    
     # Username
     Username = card.find_element_by_xpath('.//span').text
     Username = Username.encode('ascii', 'ignore')
@@ -33,13 +32,10 @@ def getTweetData(card, term):
     Handle = card.find_element_by_xpath('.//span[contains(text(), "@")]').text
     # print(Handle)
 
-    try:
-        # Postdate
-        PostDate = card.find_element_by_xpath(
-            './/time').get_attribute('datetime')
-        print(PostDate)
-    except NoSuchElementException:
-        return
+    # Postdate
+    PostDate = card.find_element_by_xpath(
+        './/time').get_attribute('datetime')
+    print(PostDate)
 
     # Content
     Comment = card.find_element_by_xpath('.//div[2]/div[2]/div[1]').text
@@ -53,22 +49,23 @@ def getTweetData(card, term):
     Content = Content[:-1]
     # print(Content)
 
-    # Reply count
+# Reply count
     ReplyCount = card.find_element_by_xpath(
         './/div[@data-testid="reply"]').text
     print(ReplyCount)
 
-    # Retweet count
+# Retweet count
     RetweetCount = card.find_element_by_xpath(
         './/div[@data-testid="retweet"]').text
     print(RetweetCount)
 
-    # Likes count
+# Likes count
     LikesCount = card.find_element_by_xpath('.//div[@data-testid="like"]').text
     print(LikesCount)
 
+
     tweet = (term, Username, Handle, PostDate, Content,
-             ReplyCount, RetweetCount, LikesCount)
+            ReplyCount, RetweetCount, LikesCount)    
     return tweet
 
 
@@ -125,7 +122,7 @@ def saveTweets(searchTerms, n):
         tweetList = scrapePage(base_url(term), n, term, tweetList)
     df = pandas.DataFrame(tweetList)
     #df.to_csv('Draft1.csv', encoding='utf-8', index=False, header=["Search Term", "Username", "Handle", "PostDate", "Content", "Comments", "Retweets", "Likes"])
-    with open("Draft1.csv", 'a') as f:
+    with open("Draft1.csv", 'a', newline='') as f:
         df.to_csv(f, mode='a', encoding='utf-8', index=False, header=False)
 
 
