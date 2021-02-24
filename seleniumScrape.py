@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import pandas
 
-searchTerms = ['Pandemic', 'COVID', 'Corona', 'COVID19', 'Coronavirus']
+searchTerms = ['GameOfThrones', 'Potter']
 
 url = 'https://twitter.com/login'
 driver = webdriver.Firefox()
@@ -144,5 +144,5 @@ if __name__ == '__main__':
     email.send_keys('LaneTrance')
     password.send_keys('PivotalData', Keys.ENTER)
 
-    saveTweets(searchTerms, 20)
+    saveTweets(searchTerms, 3)
     driver.quit()
