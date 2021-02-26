@@ -3,11 +3,10 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common import exceptions
 from selenium.webdriver.common.keys import Keys
-
 import time
 import pandas
 
-searchTerms = ['GameOfThrones', 'Potter']
+searchTerms = ['COVID', 'Vaccine', 'COVID19', 'coronavirus', 'COVID-19']
 
 url = 'https://twitter.com/login'
 driver = webdriver.Firefox()
@@ -18,7 +17,7 @@ def base_url(
 
 
 def getTweetData(card, term):
-    
+
     # Username
     Username = card.find_element_by_xpath('.//span').text
     Username = Username.encode('ascii', 'ignore')
@@ -63,9 +62,8 @@ def getTweetData(card, term):
     LikesCount = card.find_element_by_xpath('.//div[@data-testid="like"]').text
     print(LikesCount)
 
-
     tweet = (term, Username, Handle, PostDate, Content,
-            ReplyCount, RetweetCount, LikesCount)    
+             ReplyCount, RetweetCount, LikesCount)
     return tweet
 
 
@@ -121,9 +119,20 @@ def saveTweets(searchTerms, n):
         print('Scraping for #{}'.format(term))
         tweetList = scrapePage(base_url(term), n, term, tweetList)
     df = pandas.DataFrame(tweetList)
-    #df.to_csv('Draft1.csv', encoding='utf-8', index=False, header=["Search Term", "Username", "Handle", "PostDate", "Content", "Comments", "Retweets", "Likes"])
-    with open("Draft1.csv", 'a', newline='') as f:
-        df.to_csv(f, mode='a', encoding='utf-8', index=False, header=False)
+    # df.to_csv('tweetData.csv', encoding='utf-8', index=False, header=[
+    #           "Search Term", "Username", "Handle", "PostDate", "Content", "Comments", "Retweets", "Likes"])
+    old = pandas.read_csv('tweetData.csv')
+    print(df)
+    print("~~~~~~~~")
+    print(old)
+    old = old.append(df, ignore_index=True)
+    new = old.drop_duplicates()
+    new.to_csv('tweetData.csv', mode='a',
+               encoding='utf-8', index=False, header=False)
+
+    # with open("tweetData.csv", 'a', newline='') as f:
+    #     pandas.read_csv(f).append(df).drop_duplicates().to_csv(
+    #         f, mode='a', encoding='utf-8', index=False, header=False)
 
 
 def waiting_function(by_variable, attribute):
@@ -144,5 +153,6 @@ if __name__ == '__main__':
     email.send_keys('LaneTrance')
     password.send_keys('PivotalData', Keys.ENTER)
 
-    saveTweets(searchTerms, 3)
+    while True:
+        saveTweets(searchTerms, 1)
     driver.quit()

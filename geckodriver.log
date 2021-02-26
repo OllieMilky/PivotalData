@@ -3909,3 +3909,683 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: Inv
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1614180943431	geckodriver	INFO	Listening on 127.0.0.1:54938
+1614180946448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofile8g7JgU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614180951474	Marionette	INFO	Listening on port 54949
+1614180951622	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2684d24a000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26847838000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26857826400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26856c50400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26856c50400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=26856c50400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18348, MediaDecoderStateMachine #1] WARNING: Decoder=2687800f800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+1614181887505	Marionette	INFO	Stopped listening on port 54949
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614184712685	geckodriver	INFO	Listening on 127.0.0.1:55809
+1614184715697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofilexy070j"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614184721187	Marionette	INFO	Listening on port 55819
+1614184721709	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 21116, MediaDecoderStateMachine #1] WARNING: Decoder=26f067e4000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 21116, MediaDecoderStateMachine #1] WARNING: Decoder=26f067e4000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614185076682	Marionette	INFO	Stopped listening on port 55819
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614185066878	Marionette	INFO	Listening on port 55993
+1614185066988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614185358502	Marionette	INFO	Stopped listening on port 55993
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofileCRPkSo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614185219160	Marionette	INFO	Listening on port 56112
+1614185219271	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614185252017	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23coronavirus&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 237 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.en-GB.3a0fac85.js)
+[Child 21008, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+1614185356141	Marionette	INFO	Stopped listening on port 56112
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+source://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614185297828	Marionette	INFO	Listening on port 56199
+1614185298022	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614185333268	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1614185358499	Marionette	INFO	Stopped listening on port 56199
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614185370245	geckodriver	INFO	Listening on 127.0.0.1:56297
+1614185373257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofile761erQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614185377790	Marionette	INFO	Listening on port 56306
+1614185377881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614185387670	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1614185441703	Marionette	INFO	Stopped listening on port 56306
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614186664915	geckodriver	INFO	Listening on 127.0.0.1:56909
+1614186667942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofiley2fU8n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614186673136	Marionette	INFO	Listening on port 56917
+1614186673287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614186694943	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1614186795192	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1614186849847	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1614186939783	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1614187077014	Marionette	INFO	Stopped listening on port 56917
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614187105942	geckodriver	INFO	Listening on 127.0.0.1:57089
+1614187108957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofile4EF2FS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1614187120141	Marionette	INFO	Listening on port 57100
+1614187120610	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22904dc1000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22904dc1000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=22919cf5c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20660, MediaDecoderStateMachine #1] WARNING: Decoder=2294ad3ac00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+1614187496694	Marionette	INFO	Stopped listening on port 57100
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614187656876	geckodriver	INFO	Listening on 127.0.0.1:57274
+1614187659890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofilendWMnA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1614187670787	Marionette	INFO	Listening on port 57282
+1614187670854	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193bd09b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 18424, MediaDecoderStateMachine #1] WARNING: Decoder=193c3b4a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.057be035.js, line 1: Error: BROADCAST_REQUEST_ERROR
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.057be035.js, line 1: Error: BROADCAST_REQUEST_ERROR
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614280435731	Marionette	INFO	Stopped listening on port 57282
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614337475095	geckodriver	INFO	Listening on 127.0.0.1:62982
+1614337478120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofileFBDVz8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1614337482640	Marionette	INFO	Listening on port 62990
+1614337482904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 1876, MediaDecoderStateMachine #1] WARNING: Decoder=2a14be6a000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 1876, MediaDecoderStateMachine #1] WARNING: Decoder=2a14be6a000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+1614337712216	Marionette	INFO	Stopped listening on port 62990
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofiletSwBnW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1614337682130	Marionette	INFO	Listening on port 63117
+1614337682623	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Hand1614337913123	Marionette	INFO	Listening on port 63246
+1614337913497	Marionette	WARN	TLS certificate errors will be ignored for this session
+erialized, but the handler returned false (indicating failure)
+
+1614337913158	Marionette	INFO	Stopped listening on port 63117
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1614338657678	geckodriver	INFO	Listening on 127.0.0.1:63521
+1614338660708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Hall\\AppData\\Local\\Temp\\rust_mozprofilefxll9v"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1614338665876	Marionette	INFO	Listening on port 63531
+1614338666184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614338676598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23coronavirus&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 240 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.en-GB.f68ca3f5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 240 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.en-GB.f68ca3f5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID-19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 176 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.9103f5a5.js)
+[Child 21880, MediaDecoderStateMachine #1] WARNING: Decoder=21a2acc9800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 21880, MediaDecoderStateMachine #1] WARNING: Decoder=21a2acc9800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 21880, MediaDecoderStateMachine #1] WARNING: Decoder=21a32242000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 21880, MediaDecoderStateMachine #1] WARNING: Decoder=21a32242000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: https://twitter.com/search?q=lang%3Aen%20%23COVID19&src=typed_query&f=live, line 134: ChunkLoadError: Loading chunk 240 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.en-GB.f68ca3f5.js)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 21880, MediaDecoderStateMachine #1] WARNING: Decoder=21a2aee3000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 21880, MediaDecoderStateMachine #1] WARNING: Decoder=21a2aee3000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1614338923778	Marionette	INFO	Stopped listening on port 63531
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
