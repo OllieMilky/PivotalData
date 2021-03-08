@@ -121,19 +121,11 @@ def saveTweets(searchTerms, n):
     df = pandas.DataFrame(tweetList)
     # df.to_csv('tweetData.csv', encoding='utf-8', index=False, header=[
     #           "Search Term", "Username", "Handle", "PostDate", "Content", "Comments", "Retweets", "Likes"])
-    old = pandas.read_csv('tweetData.csv')
-    print(df)
-    print("~~~~~~~~")
-    print(old)
+    old = pandas.read_csv('tweetData.csv', header=None)
     old = old.append(df, ignore_index=True)
     new = old.drop_duplicates()
-    new.to_csv('tweetData.csv', mode='a',
-               encoding='utf-8', index=False, header=False)
-
-    # with open("tweetData.csv", 'a', newline='') as f:
-    #     pandas.read_csv(f).append(df).drop_duplicates().to_csv(
-    #         f, mode='a', encoding='utf-8', index=False, header=False)
-
+    new.to_csv('tweetData.csv',
+               encoding='utf-8', index=False)
 
 def waiting_function(by_variable, attribute):
     try:
